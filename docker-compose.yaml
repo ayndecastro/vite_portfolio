@@ -1,0 +1,10 @@
+services:
+  aeros-template:
+    build:
+      context: ./
+    image: "aeros-template"
+    container_name: "aeros-template"
+    restart: unless-stopped
+    command: bash -c "node index.js"
+    ports:
+      - "3000:3000"

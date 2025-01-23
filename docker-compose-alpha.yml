@@ -1,0 +1,20 @@
+services:
+  aeros-template:
+    image: "rensysinc/aeros-template:latest"#TODO: Update this with proper tag for the project
+    env_file: ./.env
+    container_name: "nyacol_aeros-template_fe"
+    restart: unless-stopped
+    command: bash -c "node index.js"
+
+    # Container Resource Limits
+    cpus: 0.75
+    mem_limit: 512m
+
+    ports:
+      - "3000:3000" #TODO: Update this with proper port mapping for the project
+# Configure the environment's network
+#   Make sure the specified ntwork exists where container is being deployed
+networks:
+  default:
+    name: alpha-network
+    external: true
