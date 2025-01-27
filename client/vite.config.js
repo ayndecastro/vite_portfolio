@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/vite_portfolio/', // Ensure all asset URLs are relative
+  base: './', // Ensure all asset URLs are relative
   plugins: [react()],
   server: {
     // this ensures that the browser opens upon server start

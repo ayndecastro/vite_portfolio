@@ -22,10 +22,11 @@ const HeroSection = () => {
               Software Developer
             </h2>
             <p className='mt-4 text-xl text-gray-300'>
-              Specialize in building web applications with React and Node.js and
-              process automation with Python.
+              Full-Stack Software Developer with 4+ years of experience
+              specializing in building web applications with React and Node.js,
+              and process automation with Python.
             </p>
-            <div className='mt-4 flex justify-center items-center gap-6 text-gray-300'>
+            <div className='mt-4 flex flex-col sm:flex-row justify-center items-center gap-6 text-gray-300'>
               <div className='flex items-center'>
                 <MapPin className='w-5 h-5 mr-2' />
                 Austin, TX
