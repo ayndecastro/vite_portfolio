@@ -3,7 +3,8 @@ import HeroSection from './Hero';
 import Experience from './Experience';
 import Projects from './Projects';
 import Skills from './Skills';
-import Contact from './Contact';
+// import Contact from './Contact';
+import GithubTracker from './GithubTracker';
 
 const Portfolio = () => {
   const projects = [
@@ -72,8 +73,8 @@ const Portfolio = () => {
       duration: 'Mar 2020 - Present',
       achievements: [
         'Automated studio rental operations reducing costs by 60%',
-        'Designed Azure database pipeline for analytics',
-        'Implemented social media metrics analysis',
+        'Designed Azure database pipeline for power BI analytics',
+        'Implemented social media campaign and analytics dashboard',
       ],
       technologies: ['Azure', 'Power BI', 'Google Analytics'],
     },
@@ -121,14 +122,16 @@ const Portfolio = () => {
           <a href='#skills' className='text-gray-300 hover:text-white'>
             Skills
           </a>
-          <a href='#contact' className='text-gray-300 hover:text-white'>
+          {/* <a href='#contact' className='text-gray-300 hover:text-white'>
             Contact
-          </a>
+          </a> */}
         </div>
       </Header>
 
       {/* Hero Section with Background Image */}
       <HeroSection />
+      {/* github contribution tracker */}
+      <GithubTracker />
 
       {/* Experience Section */}
       <Experience experiences={experiences} />
@@ -140,7 +143,7 @@ const Portfolio = () => {
       <Skills skills={skills} />
 
       {/* Contact Section */}
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 };
