@@ -16,7 +16,15 @@ COPY ./server /server
 
 RUN yarn install --frozen-lockfile
 
+
+
 USER node
+
+# Expose the port the app runs on
+EXPOSE 3000
 
 # Use tini as the entrypoint
 ENTRYPOINT ["/usr/bin/tini", "--"]
+
+# Start the application
+CMD ["yarn", "start"]
