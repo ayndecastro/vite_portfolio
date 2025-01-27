@@ -15,11 +15,11 @@ export default defineConfig({
       '@': '/src',
     },
   },
-  build: {
-    outDir: '../server/build', // Specify the output directory
-    rollupOptions: {
-      input: 'index.html', // Ensure this points to your entry HTML file
-    },
-    sourcemap: true, // Enable source maps
-  },
+  // build: {
+  //   outDir: '../server/build', // Specify the output directory
+  //   rollupOptions: {
+  //     input: 'index.html', // Ensure this points to your entry HTML file
+  //   },
+  //   sourcemap: true, // Enable source maps
+  // },
 });
