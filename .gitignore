@@ -1,0 +1,28 @@
+# Ignore env files
+./client/.env
+./server/.env
+.env
+
+# Ignore node_modules directory
+node_modules/
+./client/node_modules
+./server/node_modules
+
+
+# Ignore package-lock.json (for npm)
+package-lock.json
+
+# Ignore yarn.lock (for yarn)
+yarn.lock
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build output
+.parcel-cache/
+dist/
+./client/dist
+./client/.parcel-cache
