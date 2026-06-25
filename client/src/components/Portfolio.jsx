@@ -24,7 +24,7 @@ const Portfolio = () => {
       tags: ['Copilot', 'Power Automate', 'SharePoint', 'Authentik', 'Entra ID', 'SSO'],
     },
     {
-      title: 'Importer Service',
+      title: 'Intelligent Document Processing (IDP) Service',
       company: 'RENAISSANCE SYSTEMS INC',
       duration: 'Aug 2023 - Mar 2024',
       description:
