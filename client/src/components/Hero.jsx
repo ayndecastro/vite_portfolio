@@ -63,7 +63,7 @@ const HeroSection = () => {
                 // view_projects()
               </a>
               <a
-                href='/VADC_RESUME_06_26.pdf'
+                href='/vincentayndecastro_resume.pdf'
                 download='Vincent_Ayn_de_Castro_Resume.pdf'
                 className='inline-flex items-center gap-2 bg-zinc-900 border border-zinc-850 text-emerald-400 hover:bg-zinc-800 transition-all font-medium py-3 px-6 rounded-lg text-sm font-mono'
               >
