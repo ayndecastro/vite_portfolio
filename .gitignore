@@ -12,8 +12,8 @@ node_modules/
 # Ignore package-lock.json (for npm)
 package-lock.json
 
-# Ignore yarn.lock (for yarn)
-yarn.lock
+# # Ignore yarn.lock (for yarn)
+# yarn.lock
 
 # Ignore IDE or editor specific files
 .vscode/
