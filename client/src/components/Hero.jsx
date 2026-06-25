@@ -21,7 +21,7 @@ const HeroSection = () => {
               Vincent <span className='text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-500'>Ayn de Castro</span>
             </h2>
             <h3 className='text-lg md:text-xl font-mono text-zinc-400 mt-4 tracking-wider uppercase'>
-              // Full-Stack Software Developer
+              // Full-Stack Full Stack Software Engineer
             </h3>
 
             <p className='mt-6 text-base md:text-lg text-zinc-400 leading-relaxed max-w-2xl'>

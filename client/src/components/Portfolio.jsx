@@ -15,7 +15,7 @@ const Portfolio = () => {
       duration: 'Aug 2022 - Present',
       description:
         'Engineered an end-to-end automation platform utilizing Copilot and Power Automate to dynamically generate client-facing proposals into Word and Excel formats, and secured it via Authentik/Entra ID SSO.',
-      role: 'Software Developer',
+      role: 'Full Stack Software Engineer',
       achievements: [
         'Engineered an end-to-end automation platform utilizing Copilot and Power Automate',
         'Dynamically generated client-facing proposals into Word and Excel formats',
@@ -29,7 +29,7 @@ const Portfolio = () => {
       duration: 'Aug 2023 - Mar 2024',
       description:
         'Led the design and implementation of a data processing service that automatically categorizes documents for OCR scanning, integrated LLMs for data extraction, and implemented LLM-powered validation pipelines.',
-      role: 'Software Developer',
+      role: 'Full Stack Software Engineer',
       achievements: [
         'Led the design and implementation of a data processing service automatically categorizing documents for OCR scanning',
         'Integrated Large Language Models (LLMs) to enhance document processing and accuracy in data extraction',
@@ -58,7 +58,7 @@ const Portfolio = () => {
 
   const experiences = [
     {
-      title: 'Software Developer',
+      title: 'Full Stack Software Engineer',
       company: 'RENAISSANCE SYSTEMS INC',
       location: 'Austin, TX',
       duration: 'Aug 2022 - Present',
@@ -90,7 +90,7 @@ const Portfolio = () => {
       ],
     },
     {
-      title: 'Software Developer',
+      title: 'Full Stack Software Engineer',
       company: 'Band Barracks Studios',
       location: 'Houston, TX',
       duration: 'Mar 2020 - Mar 2025',
@@ -113,7 +113,7 @@ const Portfolio = () => {
       ],
     },
     {
-      title: 'Software Developer Intern',
+      title: 'Software Engineer Intern',
       company: '7QUBE',
       location: 'Chicago, IL',
       duration: 'Mar 2021 - Jul 2021',
