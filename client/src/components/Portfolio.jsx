@@ -199,7 +199,7 @@ const Portfolio = () => {
             </a>
           ))}
           <a
-            href='/vincentayndecastro_resume.pdf'
+            href='/Vincent_Ayn_de_Castro_Resume.pdf'
             download='Vincent_Ayn_de_Castro_Resume.pdf'
             className='bg-emerald-950/30 border border-emerald-800/40 text-emerald-400 hover:bg-emerald-800/20 px-3 py-1.5 rounded font-mono text-xs transition-colors duration-200'
           >
