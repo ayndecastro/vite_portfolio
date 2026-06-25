@@ -9,17 +9,24 @@ export default defineConfig({
     open: true,
     // this sets a default port to 3000
     port: 3000,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3001',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
   },
   resolve: {
     alias: {
       '@': '/src',
     },
   },
-  // build: {
-  //   outDir: '../server/build', // Specify the output directory
-  //   rollupOptions: {
-  //     input: 'index.html', // Ensure this points to your entry HTML file
-  //   },
-  //   sourcemap: true, // Enable source maps
-  // },
+  build: {
+    outDir: '../server/build', // Specify the output directory
+    rollupOptions: {
+      input: 'index.html', // Ensure this points to your entry HTML file
+    },
+    sourcemap: true, // Enable source maps
+  },
 });
